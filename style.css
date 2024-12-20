@@ -113,7 +113,8 @@ section {
   margin-top: -50px;
   text-transform: uppercase;
 }
-.bio h4 {  
+
+.bio h4 {
   margin-left: -600px;
   margin-top: -50px;
   font-size: var(--h4-font);
