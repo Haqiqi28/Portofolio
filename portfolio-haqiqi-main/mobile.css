@@ -1,0 +1,216 @@
+@import url("style.css");
+
+.navbar {
+  flex-direction: row;
+  align-items: center;
+  height: auto;
+  padding: 2px;
+}
+
+.navbar-brand {
+  margin-bottom: 2px;
+}
+
+.navbar-brand img {
+  height: 20px; /* Logo lebih kecil pada mobile */
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+}
+
+.nav .nav-link {
+  margin: 10px 0; /* Mengurangi margin antar link */
+  font-size: 12px; /* Sesuaikan ukuran font */
+}
+/* Jumbotron adjustments */
+.profile {
+  padding: 40px 0;
+}
+
+.header {
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+
+.title h1 {
+  font-size: 10rem;
+  margin-top: 0;
+}
+
+.bio h4 {
+  font-size: 15px;
+  margin-left: 85px;
+  margin-top: -20px;
+  color: var(--text-light);
+  letter-spacing: 20px;
+  font-family: "LEMONMILK", sans-serif;
+}
+.bio h4 span {
+  font-size: 10px;
+  font-family: "LEMONMILK", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0;
+  color: var(--text-light);
+}
+
+.button .btn {
+  margin-top: -100px;
+  margin-right: -220px;
+  width: 20%;
+  padding: 0px 0;
+  font-size: 8px;
+}
+
+.scroll-container {
+  height: 15px;
+}
+
+.scroll-text {
+  font-size: 10px;
+}
+
+.profile-pic {
+  width: 200px;
+  bottom: -50px;
+}
+
+/* Resume section adjustments */
+.resume {
+  padding: 30px 0;
+}
+
+.resume .experience,
+.resume .education {
+  text-align: center;
+}
+
+.resume .item {
+  margin-bottom: 0px;
+}
+
+.resume h6 {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.resume .item h4 {
+  font-size: 10px;
+}
+
+.resume .item h5 {
+  font-size: 8px;
+}
+
+.resume .item p {
+  font-size: 8px;
+}
+
+/* Skills section adjustments */
+.skills-section {
+  position: absolute;
+  z-index: 10;
+  top: 50rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+  margin-top: -70px;
+}
+
+.skills-container {
+  position: absolute;
+  top: 130px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--text-light); /* Background terang untuk ikon */
+  border-radius: 15px; /* Rounded untuk keseluruhan */
+  box-shadow: 0 4px 8px rgba(0.1, 0.1, 0.1, 0.1); /* Shadow lembut */
+  width: 10rem;
+  margin: auto;
+}
+
+.skills-header {
+  padding: 5px 0;
+}
+
+.skills-title {
+  font-size: 10px;
+}
+
+.skills-icons {
+  gap: 10px;
+}
+
+.skill-item img {
+  height: 25px;
+}
+
+/* Projects section adjustments */
+.projects {
+  padding: 50px 0;
+}
+
+.project-title h4 {
+  font-size: 20px;
+}
+
+.project-content a {
+  display: block;
+  text-align: center;
+}
+
+.project-content p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Contact section adjustments */
+.contact-header h2 {
+  font-size: 10px;
+  padding: 6px 0;
+}
+
+.contact-item {
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+.contact-item img {
+  width: 20px;
+}
+
+.contact-item p {
+  font-size: 10px;
+}
+
+.contact-button {
+  font-size: 10px;
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+
+.footer {
+  padding: 10px;
+  text-align: center;
+  font-size: 10px;
+}
+
+/* Adjusting layout for mobile screens */
+.resume .education,
+.resume .experience {
+  margin-bottom: 20px;
+}
+
+.profile-pic img {
+  max-width: 100%;
+  height: auto;
+}
