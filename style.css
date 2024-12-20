@@ -116,9 +116,8 @@ section {
 .bio {
   justify-content: flex-start;
 }
-.bio h4 {
-  
-  margin-left: 280px;
+.bio h4 {  
+  margin-left: -600px;
   margin-top: -50px;
   font-size: var(--h4-font);
   color: var(--text-light);
